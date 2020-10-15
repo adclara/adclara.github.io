@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/82c7bbe089.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <img class="nav__logo" src="assets/logo.jpeg" alt="Reservia" />
+        <div class="nav__links">
+          <a class="active" href="#">Accomodations</a>
+          <a href="#">Activities</a>
+          <a href="#">Sign Up</a>
+        </div>
+        <button class="menu" type="button"><i class="fas fa-bars"></i></button>
+      </div>
+
+      <div class="intro">
+        <p class="intro__title">Find a place for your dream vacation</p>
+        <p class="intro__description">Downtown or in nature</p>
+        <div class="search">
+          <i class="fas fa-map-marker-alt"></i>
+          <input type="text" value="Marseille, France" />
+          <button type="button">Search</button>
+        </div>
+
+        <div class="filters__container">
+          <p>Filters</p>
+          <button id="bill" class="filter-btn">Low cost</button>
+          <button id="child" class="filter-btn">Family-friendly</button>
+          <button id="heart" class="filter-btn">Romantic</button>
+          <button id="dog" class="filter-btn">Pets allowed</button>
+          <!-- <div class="filter">
+            <i class="fas fa-money-bill-wave-alt"></i>
+            <p>Low cost</p>
+          </div>
+          <div class="filter">
+            <i class="fas fa-child"></i>
+            <p>Family-friendly</p>
+          </div>
+          <div class="filter">
+            <i class="fas fa-heart"></i>
+            <p>Romantic</p>
+          </div>
+          <div class="filter">
+            <i class="fas fa-dog"></i>
+            <p>Pets allowed</p>
+          </div> -->
+        </div>
+
+        <div class="info">
+          <div class="info__icon">
+            <i class="fas fa-info"></i>
+          </div>
+          <p>More than 500 accomodations are available in this city</p>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="main__content">
+          <p class="title">Accomodations in Marseille</p>
+          <div class="card__container">
+            <div class="card shadow">
+              <img src="assets/cannebiere.jpeg" alt="Auberge La Cannebière" />
+              <div class="card__text">
+                <p class="card__title">Auberge La Cannebière</p>
+                <p class="card__description">
+                  Night starting at <span>25€</span>
+                </p>
+                <div class="stars__container">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card shadow">
+              <img src="assets/duport.jpeg" alt="Hôtel du port" />
+              <div class="card__text">
+                <p class="card__title">Hôtel du port</p>
+                <p class="card__description">
+                  Night starting at <span>52€</span>
+                </p>
+                <div class="stars__container">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card shadow">
+              <img src="assets/lesmouettes.jpeg" alt="Les mouettes Hotel" />
+              <div class="card__text">
+                <p class="card__title">Les mouettes Hotel</p>
+                <p class="card__description">
+                  Night starting at <span>76€</span>
+                </p>
+                <div class="stars__container">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card shadow">
+              <img src="assets/delamer.jpeg" alt="Hôtel de la mer" />
+              <div class="card__text">
+                <p class="card__title">Hôtel de la mer</p>
+                <p class="card__description">
+                  Night starting at <span>46€</span>
+                </p>
+                <div class="stars__container">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card shadow">
+              <img src="assets/delamer.jpeg" alt="Auberge Le Panier" />
+              <div class="card__text">
+                <p class="card__title">Auberge Le Panier</p>
+                <p class="card__description">
+                  Night starting at <span>23€</span>
+                </p>
+                <div class="stars__container">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="card shadow">
+              <img src="assets/amina.jpeg" alt="Hôtel chez Amina" />
+              <div class="card__text">
+                <p class="card__title">Hôtel chez Amina</p>
+                <p class="card__description">
+                  Night starting at <span>96€</span>
+                </p>
+                <div class="stars__container">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="show-more"><a href="#">Show more</a></p>
+        </div>
+
+        <div class="main__content">
+          <div class="most-popular">
+            <p class="title">Most Popular</p>
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="card-alt shadow">
+            <img src="assets/morningsun.jpeg" alt="Morning Sun Hotel" />
+            <div class="card__text">
+              <p class="card__title">Morning Sun Hotel</p>
+              <p class="card__description">
+                Night starting at <span>128€</span>
+              </p>
+              <div class="stars__container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-alt shadow">
+            <img src="assets/bedandbreakfast.jpeg" alt="Bed and Breakfast" />
+            <div class="card__text">
+              <p class="card__title">Au coeur de l'eau Bed and Breakfast</p>
+              <p class="card__description">
+                Night starting at <span>71€</span>
+              </p>
+              <div class="stars__container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-alt shadow">
+            <img src="assets/bleuetblanc.jpeg" alt="Tout bleu et Blanc Hotel" />
+            <div class="card__text">
+              <p class="card__title">Tout bleu et Blanc Hotel</p>
+              <p class="card__description">
+                Night starting at <span>68€</span>
+              </p>
+              <div class="stars__container">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="activities">
+        <p class="title">Activities in Marseille</p>
+        <div class="activities__card-container">
+          <div class="breakpoint">
+            <div class="activities__card shadow">
+              <img src="assets/oldport.jpeg" alt="Old Port" />
+              <p class="card__title">Old Port</p>
+            </div>
+            <div class="column-60-40">
+              <div class="activities__card shadow">
+                <img src="assets/pomegeusfort.jpeg" alt="Pomègues Fort" />
+                <p class="card__title">Pomègues Fort</p>
+              </div>
+              <div class="activities__card shadow">
+                <img src="assets/frioul.jpeg" alt="Frioul Island" />
+                <p class="card__title">Frioul Island</p>
+              </div>
+            </div>
+          </div>
+          <div class="breakpoint">
+            <div class="activities__card shadow">
+              <img src="assets/nationalpark.jpeg" alt="National Park" />
+              <p class="card__title">Calanques National Park</p>
+            </div>
+            <div class="column-50-50">
+              <div class="activities__card shadow">
+                <img src="assets/notredame.jpeg" alt="Notre-Dame-de-la-Garde" />
+                <p class="card__title">Notre-Dame-de-la-Garde</p>
+              </div>
+              <div class="activities__card shadow">
+                <img src="assets/longchamp.jpeg" alt="Longchamp Park" />
+                <p class="card__title">Longchamp Park</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <ul class="about">
+        <li>About</li>
+        <li><a href="#">Site Map</a></li>
+        <li><a href="#">General Terms and Conditions</a></li>
+        <li><a href="#">Data and Privacy</a></li>
+      </ul>
+      <ul class="our-accomodations">
+        <li>Our Accomodations</li>
+        <li><a href="#">Quality Assessment</a></li>
+        <li><a href="#">You have an hotel?</a></li>
+      </ul>
+      <ul class="assistance">
+        <li>Assistance</li>
+        <li><a href="#">Help Desk</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
